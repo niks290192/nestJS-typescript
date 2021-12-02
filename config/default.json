@@ -1,0 +1,17 @@
+{
+    "env": "LOCAL",
+    "server": {
+        "port": 3000
+    },
+    "db": {
+        "type": "postgres",
+        "dialect": "postgres",
+        "host": "localhost",
+        "port": 5433,
+        "database": "USERDB",
+        "username": "admin",
+        "password": "users",
+        "logging": true,
+        "synchronize": true
+    }
+}
